@@ -1,0 +1,43 @@
+.Home {
+	height: 100%;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	width: 100vw;
+	height: 100%;
+	padding-bottom: 16%;
+}
+
+.intro {
+	/* max-width: 980px; */
+	margin: 0 64px;
+	height: 100%;
+	/* border: 1px solid blue; */
+	padding-right: 128px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	/* margin: 0 auto; */
+	/* margin: 0 auto; */
+}
+
+.intro h1 {
+	font-size: 64px;
+	margin-bottom: 32px;
+}
+
+.intro button {
+	margin-top: 16px;
+	margin-right: 16px;
+}
+
+.hands {
+	width: 500px;
+	height: 500px;
+	min-width: 30%;
+	margin-right: 64px;
+	margin-left: 64px;
+}
